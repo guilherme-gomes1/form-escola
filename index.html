@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de satisfação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="logo">
+        <img src="logo1.svg" alt="logo da escola">
+    </div>
+
+    <div id="titulos">
+        <h1 id="titulo">Formulário de satisfação Escola Isac Newton</h1>
+        <p id="subtitulo">Responda as perguntas com base na sua experiência com a instituição</p>
+
+        <p id="tituloObrigatorio" class="obrigatorio">*Obrigatório</p>
+
+    </div>
+    
+    <form action="">
+        <div id="infoPessoal">
+            <input type="text" id="nome" name="nome" placeholder="Nome*" autofocus required>
+
+            <input type="number" id="matricula" name="matricula" placeholder="Número de mátricula*" required>
+        </div>
+
+        <p class="perguntas"><strong>Qual seu nível de satisfação com a escola?<span class="obrigatorio"> *</span></strong></p>
+
+        <div id="radio1">
+            <label>
+                <input type="radio" id="excelente" name="satisfacao" value="excelente">Excelente
+            </label>
+
+            <label>
+                <input type="radio" id="otimo" name="satisfacao" value="otimo">Ótimo
+            </label>
+
+            <label>
+                <input type="radio" id="bom" name="satisfacao" value="bom">Bom
+            </label>
+
+            <label>
+                <input type="radio" id="ruim" name="satisfacao" value="ruim">Ruim
+            </label>
+        </div>
+
+        <p class="perguntas"><strong>Qual seu nível de satisfação com o antendimento <br> realizado pela escola?<span class="obrigatorio"> *</span></strong></p>
+
+        <div id="radio2">
+            <label>
+                <input type="radio" id="excelente" name="satisfacaoAtendimento" value="excelente">Excelente
+            </label>
+
+            <label>
+                <input type="radio" id="otimo" name="satisfacaoAtendimento" value="otimo">Ótimo
+            </label>
+
+            <label>
+                <input type="radio" id="bom" name="satisfacaoAtendimento" value="bom">Bom
+            </label>
+
+            <label>
+                <input type="radio" id="ruim" name="satisfacaoAtendimento" value="ruim">Ruim
+            </label>
+        </div>
+
+        <p class="perguntas"><strong>Você indicaria nossa escola para outra família?<span class="obrigatorio"> *</span></strong></p>
+
+        <div id="radio3">
+            <label>
+                <input type="radio" id="sim" name="indicacao" value="sim">Sim
+            </label>
+
+            <label>
+                <input type="radio" id="nao" name="indicacao" value="nao">Não
+            </label>
+        </div>
+
+        <p class="perguntas"><strong>Seu filho se sente motivado em participar das <br> aulas e eventos de nossa escola?<span class="obrigatorio"> *</span></strong></p>
+
+        <div id="radio4">
+            <label>
+                <input type="radio" id="sim" name="motivado" value="sim">Sim
+            </label>
+
+            <label>
+                <input type="radio" id="nao" name="motivado" value="nao">Não
+            </label>
+        </div>
+
+        <div id="botao">
+            <button type="submit">ENVIAR RESPOSTAS</button>
+        </div>
+    </form>
+</body>
+</html>
